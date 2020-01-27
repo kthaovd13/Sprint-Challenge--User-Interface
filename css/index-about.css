@@ -78,6 +78,20 @@ header nav a {
     font-weight: 595; 
 }
 
+.header-logo {
+
+}
+
+.container about-page {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 150px 0px 230px;
+    padding-top: 50px;
+    border-top: 1px solid black;
+    font-weight: 580;
+}
+
 .bottom-content {
     width: 65%;
     display: inline-flex;
