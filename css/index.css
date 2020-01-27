@@ -136,9 +136,44 @@ header nav a {
     justify-content: center;
 }
 
-.box {
+.boxes .box.box1 {
     background-color: teal;
+}
 
+.boxes .box.box2 {
+    background-color: gold;
+}
+
+.boxes .box.box3 {
+    background-color: cadetblue;
+}
+
+.boxes .box.box4 {
+    background-color: coral;
+}
+
+.boxes .box.box5 {
+    background-color: crimson;
+}
+
+.boxes .box.box6 {
+    background-color: forestgreen;
+}
+
+.boxes .box.box7 {
+    background-color: darkorchid;
+}
+
+.boxes .box.box8 {
+    background-color: hotpink;
+}
+
+.boxes .box.box9 {
+    background-color: indigo;
+}
+
+.boxes .box.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
