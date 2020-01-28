@@ -1,0 +1,9 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?  HTML markups provide meaning to your content.
+
+Name two big differences between display: block; and display: inline;. The width it takes up and if there are line breaks or not.
+
+What are the 4 areas of the box model? Margin, border, padding, and content.
+
+While using flexbox, what axis does the following property work on: align-items: center? cross-axis
+
+Explain why git is valuable to a team of developers.  It makes it easier to collaborate with other and to look back at previous versions of your work.
