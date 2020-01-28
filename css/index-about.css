@@ -68,8 +68,7 @@ header nav {
     align-items: flex-end;
     padding: 20px 2%;
     font-size: 14px;
-    margin: 30px 0px 30px 210px;
-
+    margin: 30px 0px 30px 205px;
 }
 
 header nav a {
@@ -78,26 +77,98 @@ header nav a {
     font-weight: 595; 
 }
 
-.header-logo {
-
+.about {
+    margin: 30px 230px 15px 230px;
 }
 
-.container about-page {
-    display: inline-block;
+img.header-logo {
+    margin-bottom: 30px;
+}
+
+
+.container-about-page {
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 50px 150px 0px 230px;
-    padding-top: 50px;
-    border-top: 1px solid black;
+    justify-content: space-evenly;
+    border-top: 1px dotted black;
     font-weight: 580;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.container-about-page div {
+    margin-top: 20px;
+    width: 45%;
+}
+
+.container-about-page div h2 {
+    margin-top: 20px;
+    width: 45%;
+}
+
+.about h2 {
+    font-weight: 600;
+    margin: 20px;
+}
+
+.about p {
+    margin: 20px;
+}
+
+button {
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.strategy {
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.how-work {
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.places-work {
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.collab {
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 .bottom-content {
-    width: 65%;
-    display: inline-flex;
+    margin: 0px 230px 30px 230px;
+    padding-top: 50px;
+}
+
+footer {
+    width: 64%;
+    background: black;
+    margin-left: 230px;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-    margin-left: 210px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
